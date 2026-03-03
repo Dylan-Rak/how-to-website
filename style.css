@@ -48,7 +48,7 @@ ul li a.active {
 .container-t {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 5fr 1fr;
 }
 
 .header-i {
@@ -96,7 +96,7 @@ ul li a.active {
   margin: 15px;
   border: #bbbbbb 3px solid;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .body-t {
@@ -119,6 +119,9 @@ ul li a.active {
   padding: 15px;
   margin: 15px;
   border: #bbbbbb 3px solid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .GHSPN120 {
@@ -136,9 +139,14 @@ ul li a.active {
   height: 100px;
 }
 
+.cuttmatt {
+  width: 100px;
+  height: 100px;
+}
+
 .imgrespikicher {
-  width: 230px;
-  height: 230px;
+  width: 250px;
+  height: 250px;
 }
 
 .container-b {
