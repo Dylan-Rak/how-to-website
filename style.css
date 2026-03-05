@@ -123,6 +123,18 @@ ul li a.active {
   justify-content: center;
 }
 
+.intro-i {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  color: #bbbbbb;
+  background-color: #111111;
+  padding: 15px;
+  margin: 15px;
+  border: #bbbbbb 3px solid;
+  display: flex;
+  justify-content: center;
+}
+
 .body-t {
   grid-column: 2/3;
   grid-row: 4/5;
